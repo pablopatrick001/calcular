@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <script>
+        // Programa para ler 4 números, exibir soma e média
+        let num1 = parseFloat(prompt("Digite o primeiro número: "));
+        let num2 = parseFloat(prompt("Digite o segundo número: "));
+        let num3 = parseFloat(prompt("Digite o terceiro número: "));
+        let num4 = parseFloat(prompt("Digite o quarto número: "));
+
+        let soma = num1 + num2 + num3 + num4;
+        let media = soma / 4;
+
+        document.write(`<p>Soma: ${soma}, Média: ${media}</p>`);
+    </script>
+
+</body>
+</html>
